@@ -25,7 +25,11 @@ Has compatability to run with Bootstrap and Pure libraries.
 
 ###Tags
   page - container for pages
+  
   row-* - specifies the row amount you want
+  
   row-bottom - centers the text bottom
+  
   row-top - centers the text top
+  
   row-center - centers the text in the center
