@@ -1,0 +1,109 @@
+@page {
+    size: 8.5in 11in;
+    margin: .5in;
+}
+
+.page {
+    page-break-after: always;
+    height: 11in;
+    width: 8.5in;
+}
+
+.row-bottom {
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -ms-flex;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-align-items: flex-end;
+    -ms-align-items: flex-end;
+    align-items: flex-end;
+}
+
+.row-top {
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -ms-flex;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-align-items: flex-start;
+    -ms-align-items: flex-start;
+    align-items: flex-start;
+}
+
+.row-center {
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -ms-flex;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-align-items: center;
+    -ms-align-items: center;
+    align-items: center;
+}
+
+.row-1, .row-2, .row-3, .row-4,
+.row-5, .row-6, .row-7, .row-8,
+.row-9, .row-10, .row-11, row-12 {
+    display: flex;
+}
+
+.row-1 {
+    height: 8.33333%
+}
+
+.row-2 {
+    height: 16.66666%
+}
+
+.row-3 {
+    height: 24.99999%
+}
+
+.row-4 {
+    height: 33.33333%
+}
+
+.row-5 {
+    height: 41.66666%
+}
+
+.row-6 {
+    height: 49.99999%
+}
+
+.row-7 {
+    height: 58.33333%
+}
+
+.row-8 {
+    height: 66.66666%
+}
+
+.row-9 {
+    height: 74.99999%
+}
+
+.row-10 {
+    height: 83.33333%;
+}
+
+.row-11 {
+    height: 91.66666%
+}
+
+.row-12 {
+    height: 100%;
+}
+
+.navbar > .pure-u-1-2 {
+    background-color: transparent;
+}
+
+
+*, h1, h2, h3, h4, h5, h6, p ,td , li {
+    margin: 0px;
+}
